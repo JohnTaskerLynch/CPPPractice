@@ -16,7 +16,7 @@ int main() {
         cout << x << " ";
     }
 
-    cout << "\n1: Bogosort\n2: Gigglesort" << endl;
+    cout << "\n1: Bogosort\n2: Gigglesort\n3: Bogobogosort" << endl;
     cout << "Pick your poison: ";
     cin >> input;
 
@@ -27,6 +27,9 @@ int main() {
         case 2:
             sortGiggle(testArray, passCounter);
             cout << "Giggle sorted in " << passCounter << " passes.";
+        case 3:
+            sortBogoBogo(testArray, passCounter);
+            cout << "Bogobogo sorted in " << passCounter << " passes.";
     }
     
     return 0;
