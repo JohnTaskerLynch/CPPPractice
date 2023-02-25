@@ -1,16 +1,15 @@
-//
-// Created by bongo on 23/02/2023.
-//
-
 #include "Sort.h"
+#include "Graphics.h"
 
 static bool checkOrder(std::vector<int> input) {
     bool temp = true;
+
     for(int i = 0; i < input.size()-1; i++) {
         if(input[i] > input[i+1]) {
             temp = false;
         }
     }
+
     return temp;
 }
 

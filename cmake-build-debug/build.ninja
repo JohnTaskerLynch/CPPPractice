@@ -61,6 +61,12 @@ build CMakeFiles/Bogosort.dir/Sort.cpp.obj: CXX_COMPILER__Bogosort_Debug C$:/Use
   OBJECT_DIR = CMakeFiles\Bogosort.dir
   OBJECT_FILE_DIR = CMakeFiles\Bogosort.dir
 
+build CMakeFiles/Bogosort.dir/Graphics.cpp.obj: CXX_COMPILER__Bogosort_Debug C$:/Users/bongo/CLionProjects/Bogosort/Graphics.cpp || cmake_object_order_depends_target_Bogosort
+  DEP_FILE = CMakeFiles\Bogosort.dir\Graphics.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Bogosort.dir
+  OBJECT_FILE_DIR = CMakeFiles\Bogosort.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Bogosort
@@ -69,7 +75,7 @@ build CMakeFiles/Bogosort.dir/Sort.cpp.obj: CXX_COMPILER__Bogosort_Debug C$:/Use
 #############################################
 # Link the executable Bogosort.exe
 
-build Bogosort.exe: CXX_EXECUTABLE_LINKER__Bogosort_Debug CMakeFiles/Bogosort.dir/main.cpp.obj CMakeFiles/Bogosort.dir/Sort.cpp.obj
+build Bogosort.exe: CXX_EXECUTABLE_LINKER__Bogosort_Debug CMakeFiles/Bogosort.dir/main.cpp.obj CMakeFiles/Bogosort.dir/Sort.cpp.obj CMakeFiles/Bogosort.dir/Graphics.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Bogosort.dir

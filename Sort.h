@@ -1,7 +1,3 @@
-//
-// Created by bongo on 23/02/2023.
-//
-
 #ifndef Sort
 #define Sort
 #include "cstdlib"
