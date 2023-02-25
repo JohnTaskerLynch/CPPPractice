@@ -23,9 +23,7 @@ std::vector<int> sortBogo(std::vector<int> input, int &counter) {
     while(go) {
         for(int i = 0, n = input.size(); i < n; i++) {
             tmp = temp[i];
-
             randomIndex = rand() % n;
-
             temp[i] = temp[randomIndex];
             temp[randomIndex] = tmp;
         }
@@ -82,5 +80,35 @@ std::vector<int> sortGiggle(std::vector<int> input, int &counter) {
 }
 
 std::vector<int> sortBogoBogo(std::vector<int> input, int &counter) {
+    std::vector<int> temp;
+    int tmp, pos, randomIndex;
 
+    for(int i : input) {
+        temp.push_back(i);
+    }
+
+    bool go = !checkOrder(temp);
+
+    while(go) {
+        for(int i = 0, n = input.size(); i < n; i++) {
+            tmp = temp[i];
+            randomIndex = rand() % n;
+            temp[i] = temp[randomIndex];
+            temp[randomIndex] = tmp;
+        }
+
+        for(int i : temp) {
+            std::cout << i << " ";
+        }
+
+        std::cout << std::endl;
+
+        if(checkOrder(temp)){
+            break;
+        }
+
+        counter++;
+    }
+
+    return temp;
 }
