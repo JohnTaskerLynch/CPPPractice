@@ -3,4 +3,4 @@ project(Bogosort)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Bogosort main.cpp Sort.h Sort.cpp)
+add_executable(Bogosort main.cpp Sort.h Sort.cpp Graphics.h Graphics.cpp)
