@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/bongo/CLionProjects/CPPPractice/Graphics.cpp">
+			<Option target="Bogosort"/>
+		</Unit>
+		<Unit filename="C:/Users/bongo/CLionProjects/CPPPractice/Graphics.h">
+			<Option target="Bogosort"/>
+		</Unit>
 		<Unit filename="C:/Users/bongo/CLionProjects/CPPPractice/Sort.cpp">
 			<Option target="Bogosort"/>
 		</Unit>

@@ -128,6 +128,30 @@ Bogosort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/build
 .PHONY : Bogosort/fast
 
+Graphics.obj: Graphics.cpp.obj
+.PHONY : Graphics.obj
+
+# target to build an object file
+Graphics.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Graphics.cpp.obj
+.PHONY : Graphics.cpp.obj
+
+Graphics.i: Graphics.cpp.i
+.PHONY : Graphics.i
+
+# target to preprocess a source file
+Graphics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Graphics.cpp.i
+.PHONY : Graphics.cpp.i
+
+Graphics.s: Graphics.cpp.s
+.PHONY : Graphics.s
+
+# target to generate assembly for a file
+Graphics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Graphics.cpp.s
+.PHONY : Graphics.cpp.s
+
 Sort.obj: Sort.cpp.obj
 .PHONY : Sort.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Bogosort
+	@echo ... Graphics.obj
+	@echo ... Graphics.i
+	@echo ... Graphics.s
 	@echo ... Sort.obj
 	@echo ... Sort.i
 	@echo ... Sort.s

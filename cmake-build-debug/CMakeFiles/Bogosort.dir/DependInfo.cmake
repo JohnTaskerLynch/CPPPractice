@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/bongo/CLionProjects/CPPPractice/Graphics.cpp" "CMakeFiles/Bogosort.dir/Graphics.cpp.obj" "gcc" "CMakeFiles/Bogosort.dir/Graphics.cpp.obj.d"
   "C:/Users/bongo/CLionProjects/CPPPractice/Sort.cpp" "CMakeFiles/Bogosort.dir/Sort.cpp.obj" "gcc" "CMakeFiles/Bogosort.dir/Sort.cpp.obj.d"
   "C:/Users/bongo/CLionProjects/CPPPractice/main.cpp" "CMakeFiles/Bogosort.dir/main.cpp.obj" "gcc" "CMakeFiles/Bogosort.dir/main.cpp.obj.d"
   )

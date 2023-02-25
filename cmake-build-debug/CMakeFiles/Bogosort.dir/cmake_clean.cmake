@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "Bogosort.exe"
   "Bogosort.exe.manifest"
   "Bogosort.pdb"
+  "CMakeFiles/Bogosort.dir/Graphics.cpp.obj"
+  "CMakeFiles/Bogosort.dir/Graphics.cpp.obj.d"
   "CMakeFiles/Bogosort.dir/Sort.cpp.obj"
   "CMakeFiles/Bogosort.dir/Sort.cpp.obj.d"
   "CMakeFiles/Bogosort.dir/main.cpp.obj"
