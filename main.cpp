@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int screenWidth = 1000, screenHeight = 500;
+int screenWidth = 950, screenHeight = 500;
 
 
 //vector<int> playSorter(vector<int> &testArray) {
@@ -38,28 +38,42 @@ int screenWidth = 1000, screenHeight = 500;
 //        }
 //}
 
-int main() {
-    // initialise window
-    InitWindow(screenWidth, screenHeight, "Bogo");
-
-    // input array and counter for completion passes
+int main(void) {
+    // input array, counter for completion passes and length
     vector<int> testArray = {1, 4, 3, 6, 2, 5, 8, 7};
     long counter;
+    int n = testArray.size();
 
     // vector of vector for every pass computed
     vector<vector<int>> passes = sortBogo(testArray, counter);
 
+    // initialise window
+    InitWindow(screenWidth, screenHeight, "Bogo");
+
     // main loop
     while (!WindowShouldClose()) {
+        // variable loop
+
+        // drawing
+        BeginDrawing();
+        DrawLine(0, screenHeight - 50, screenWidth, screenHeight - 50, WHITE);
 
         // every frame is here basically
         for(int i = 0; i < passes.size(); i++) {
             vector<int> tempVec = passes.at(i);
+            float offset = 100;
 
-            for(n)
-
+            WaitTime(1);
+            for(int j : tempVec) {
+                float conv;
+                conv = j;
+                DrawRectangle(offset, screenHeight-130, 30, conv*10, WHITE);
+                offset += 100;
+            }
         }
 
+        // end drawing
+        EndDrawing();
     }
 
     // exit program
