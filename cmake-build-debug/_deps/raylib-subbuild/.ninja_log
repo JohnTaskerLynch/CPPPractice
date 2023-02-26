@@ -1,0 +1,21 @@
+# ninja log v5
+1	74	6990813700648769	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	be6531b452053fe5
+1	74	6990813700648769	C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	be6531b452053fe5
+75	10481	6990813804718418	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	9ca30cc7bd42fe25
+75	10481	6990813804718418	C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	9ca30cc7bd42fe25
+10485	10547	6990813805373916	C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	4ca6072ea836b039
+10780	10840	6990813808308985	C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	a4f3cc249d4e2822
+10485	10547	6990813805373916	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	4ca6072ea836b039
+10547	10602	6990813805943167	C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	200a4dbcae164872
+10547	10602	6990813805943167	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	200a4dbcae164872
+10603	10664	6990813806547301	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	c07980c180dfe8f
+10603	10664	6990813806547301	C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	c07980c180dfe8f
+10664	10722	6990813807135746	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	afa1c18b52cdfa0d
+10664	10722	6990813807135746	C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	afa1c18b52cdfa0d
+10723	10780	6990813807712526	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	be8413b3c93abfca
+10723	10780	6990813807712526	C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	be8413b3c93abfca
+10780	10840	6990813808308985	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	a4f3cc249d4e2822
+10840	10924	6990813809150480	CMakeFiles/raylib-populate-complete	edb262a0a667fc6d
+10840	10924	6990813809150480	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	edb262a0a667fc6d
+10840	10924	6990813809150480	C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	edb262a0a667fc6d
+10840	10924	6990813809150480	C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	edb262a0a667fc6d
