@@ -10,9 +10,11 @@ static bool checkOrder(std::vector<int> input) {
     return temp;
 }
 
-std::vector<int> sortBogo(std::vector<int> input, int &counter) {
+std::vector<std::vector<int>> sortBogo(std::vector<int> &input, long &counter) {
     std::vector<int> temp;
+    std::vector<std::vector<int>> results;
     int tmp, n, randomIndex;
+    srand(time(0));
 
     for(int i : input) {
         temp.push_back(i);
@@ -28,25 +30,29 @@ std::vector<int> sortBogo(std::vector<int> input, int &counter) {
             temp[randomIndex] = tmp;
         }
 
-        for(int i : temp) {
-            std::cout << i << " ";
-        }
+        input = temp;
 
-        std::cout << std::endl;
+        //for(int i : temp) {
+        //    std::cout << i << " ";
+        //}
+//
+        //std::cout << std::endl;
+
+        counter++;
+        results.push_back(temp);
 
         if(checkOrder(temp)){
             break;
         }
-
-        counter++;
     }
 
-    return temp;
+    return results;
 }
 
-std::vector<int> sortGiggle(std::vector<int> input, int &counter) {
+std::vector<int> sortGiggle(std::vector<int> &input, long &counter) {
     std::vector<int> temp;
     int tmp, randomIndex1, randomIndex2;
+    srand(time(0));
 
     for(int i : input) {
         temp.push_back(i);
@@ -63,11 +69,13 @@ std::vector<int> sortGiggle(std::vector<int> input, int &counter) {
         temp[randomIndex1] = temp[randomIndex2];
         temp[randomIndex2] = tmp;
 
-        for(int i : temp) {
-            std::cout << i << " ";
-        }
+        input = temp;
 
-        std::cout << std::endl;
+        //for(int i : temp) {
+        //    std::cout << i << " ";
+        //}
+//
+        //std::cout << std::endl;
 
         if(checkOrder(temp)){
             break;
@@ -79,9 +87,10 @@ std::vector<int> sortGiggle(std::vector<int> input, int &counter) {
     return temp;
 }
 
-std::vector<int> sortBogoBogo(std::vector<int> input, int &counter) {
+std::vector<int> sortBogoBogo(std::vector<int> &input, long &counter) {
     std::vector<int> temp;
     int tmp, pos, randomIndex;
+    srand(time(0));
 
     for(int i : input) {
         temp.push_back(i);
@@ -97,11 +106,13 @@ std::vector<int> sortBogoBogo(std::vector<int> input, int &counter) {
             temp[randomIndex] = tmp;
         }
 
-        for(int i : temp) {
-            std::cout << i << " ";
-        }
+        input = temp;
 
-        std::cout << std::endl;
+        //for(int i : temp) {
+        //    std::cout << i << " ";
+        //}
+//
+        //std::cout << std::endl;
 
         if(checkOrder(temp)){
             break;
