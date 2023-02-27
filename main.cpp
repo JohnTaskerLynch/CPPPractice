@@ -40,37 +40,34 @@ int screenWidth = 950, screenHeight = 500;
 
 int main(void) {
     // input array, counter for completion passes and length
-    vector<int> testArray = {1, 4, 3, 6, 2, 5, 8, 7};
+    vector<int> testArray = {1, 4, 3};
     long counter;
     int n = testArray.size();
 
     // vector of vector for every pass computed
     vector<vector<int>> passes = sortBogo(testArray, counter);
 
+    // drawing intial bars
+    float offset = 100;
+    for(int i = 0; i < n; i++) {
+        vector<Rectangle> rects = {};
+        offset += 100;
+    }
+
     // initialise window
     InitWindow(screenWidth, screenHeight, "Bogo");
+    SetTargetFPS(1);
 
     // main loop
     while (!WindowShouldClose()) {
         // variable loop
 
+
         // drawing
         BeginDrawing();
         DrawLine(0, screenHeight - 50, screenWidth, screenHeight - 50, WHITE);
 
-        // every frame is here basically
-        for(int i = 0; i < passes.size(); i++) {
-            vector<int> tempVec = passes.at(i);
-            float offset = 100;
 
-            WaitTime(1);
-            for(int j : tempVec) {
-                float conv;
-                conv = j;
-                DrawRectangle(offset, screenHeight-130, 30, conv*10, WHITE);
-                offset += 100;
-            }
-        }
 
         // end drawing
         EndDrawing();

@@ -1,5 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.3.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\bongo\CLionProjects\Bogosort -B C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug
-CMake Warning (dev) at C:/Program Files/JetBrains/CLion 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FetchContent.cmake:1267 (message):
+"C:\Users\csf21taj\AppData\Local\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\csf21taj\CLionProjects\CPPPractice -B C:\Users\csf21taj\CLionProjects\CPPPractice\cmake-build-debug
+CMake Warning (dev) at C:/Users/csf21taj/AppData/Local/JetBrains/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/FetchContent.cmake:1267 (message):
   The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
   not set.  The policy's OLD behavior will be used.  When using a URL
   download, the timestamps of extracted files should preferably be that of
@@ -16,13 +16,47 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Populating raylib
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-subbuild
-ninja: no work to do.
+-- Build files have been written to: C:/Users/csf21taj/CLionProjects/CPPPractice/cmake-build-debug/_deps/raylib-subbuild
+[ 11%] Performing download step (download, verify and extract) for 'raylib-populate'
+-- File already exists but no hash specified (use URL_HASH):
+  file='C:/Users/csf21taj/CLionProjects/CPPPractice/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/master.tar.gz'
+Old file will be removed and new file downloaded from URL.
+-- Downloading...
+   dst='C:/Users/csf21taj/CLionProjects/CPPPractice/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/master.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/raysan5/raylib/archive/master.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='C:/Users/csf21taj/CLionProjects/CPPPractice/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/master.tar.gz'
+     dst='C:/Users/csf21taj/CLionProjects/CPPPractice/cmake-build-debug/_deps/raylib-src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 22%] No update step for 'raylib-populate'
+[ 33%] No patch step for 'raylib-populate'
+[ 44%] No configure step for 'raylib-populate'
+[ 55%] No build step for 'raylib-populate'
+[ 66%] No install step for 'raylib-populate'
+[ 77%] No test step for 'raylib-populate'
+[ 88%] Completed 'raylib-populate'
+[100%] Built target raylib-populate
+-- Performing Test COMPILER_HAS_THOSE_TOGGLES
+-- Performing Test COMPILER_HAS_THOSE_TOGGLES - Success
 -- Testing if -Werror=pointer-arith can be used -- compiles
 -- Testing if -Werror=implicit-function-declaration can be used -- compiles
 -- Testing if -fno-strict-aliasing can be used -- compiles
 -- Using raylib's GLFW
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
 -- Including Win32 support
+-- Looking for dinput.h
+-- Looking for dinput.h - found
+-- Looking for xinput.h
+-- Looking for xinput.h - found
 -- Audio Backend: miniaudio
 -- Building raylib static library
 -- Generated build type: Debug
@@ -31,4 +65,4 @@ ninja: no work to do.
 --   GRAPHICS=GRAPHICS_API_OPENGL_33
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug
+-- Build files have been written to: C:/Users/csf21taj/CLionProjects/CPPPractice/cmake-build-debug

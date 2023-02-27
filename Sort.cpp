@@ -10,7 +10,7 @@ static bool checkOrder(std::vector<int> input) {
     return temp;
 }
 
-std::vector<std::vector<int>> sortBogo(std::vector<int> &input, long &counter) {
+std::vector<std::vector<int>> sortBogo(std::vector<int> input, long &counter) {
     std::vector<int> temp;
     std::vector<std::vector<int>> results;
     int tmp, n, randomIndex;
@@ -29,8 +29,6 @@ std::vector<std::vector<int>> sortBogo(std::vector<int> &input, long &counter) {
             temp[i] = temp[randomIndex];
             temp[randomIndex] = tmp;
         }
-
-        input = temp;
 
         //for(int i : temp) {
         //    std::cout << i << " ";
