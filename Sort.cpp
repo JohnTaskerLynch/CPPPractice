@@ -10,9 +10,8 @@ static bool checkOrder(std::vector<int> input) {
     return temp;
 }
 
-std::vector<std::vector<int>> sortBogo(std::vector<int> input, long &counter) {
+std::vector<int> sortBogo(std::vector<int> input, long &counter) {
     std::vector<int> temp;
-    std::vector<std::vector<int>> results;
     int tmp, n, randomIndex;
     srand(time(0));
 
@@ -20,31 +19,16 @@ std::vector<std::vector<int>> sortBogo(std::vector<int> input, long &counter) {
         temp.push_back(i);
     }
 
-    bool go = !checkOrder(temp);
-
-    while(go) {
-        for(int i = 0, n = input.size(); i < n; i++) {
-            tmp = temp[i];
-            randomIndex = rand() % n;
-            temp[i] = temp[randomIndex];
-            temp[randomIndex] = tmp;
-        }
-
-        //for(int i : temp) {
-        //    std::cout << i << " ";
-        //}
-//
-        //std::cout << std::endl;
-
-        counter++;
-        results.push_back(temp);
-
-        if(checkOrder(temp)){
-            break;
-        }
+    for(int i = 0, n = input.size(); i < n; i++) {
+        tmp = temp[i];
+        randomIndex = rand() % n;
+        temp[i] = temp[randomIndex];
+        temp[randomIndex] = tmp;
     }
 
-    return results;
+    counter++;
+
+    return temp;
 }
 
 std::vector<int> sortGiggle(std::vector<int> &input, long &counter) {

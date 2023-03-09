@@ -40,18 +40,12 @@ int screenWidth = 950, screenHeight = 500;
 
 int main(void) {
     // input array, counter for completion passes and length
-    vector<int> testArray = {1, 4, 3};
+    vector<int> testArray = {1, 4, 3, 6, 2, 5, 7};
     long counter;
-    int n = testArray.size();
+    vector<Rectangle> bars;
 
-    // vector of vector for every pass computed
-    vector<vector<int>> passes = sortBogo(testArray, counter);
-
-    // drawing intial bars
-    float offset = 100;
-    for(int i = 0; i < n; i++) {
-        vector<Rectangle> rects = {};
-        offset += 100;
+    for(int i = 0; i < testArray.size(); i++) {
+        bars.push_back(Rectangle());
     }
 
     // initialise window
@@ -61,13 +55,22 @@ int main(void) {
     // main loop
     while (!WindowShouldClose()) {
         // variable loop
-
+        vector<int> pass = sortBogo(testArray, counter);
+        float offset = 100;
 
         // drawing
         BeginDrawing();
-        DrawLine(0, screenHeight - 50, screenWidth, screenHeight - 50, WHITE);
+        DrawLine(0, screenHeight - 400, screenWidth, screenHeight - 400, WHITE);
 
+        // sort
+        for(int i = 0; i < testArray.size(); i++) {
+            cout << pass.at(i);
+            DrawRectangle(offset, screenHeight - (400+pass.at(i)*10), 35, pass.at(i)*10, WHITE);
+            //DrawText(reinterpret_cast<const char *>(counter), 250, 250, 20, WHITE);
+            offset += 100;
+        }
 
+        cout << endl;
 
         // end drawing
         EndDrawing();
