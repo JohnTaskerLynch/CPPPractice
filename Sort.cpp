@@ -12,6 +12,16 @@ bool checkOrder(std::vector<int> input) {
     return temp;
 }
 
+int factorial(int input) {
+    int factorial = 1;
+
+    for(int i = 1; i <= input; i++) {
+        factorial *= i;
+    }
+
+    return factorial;
+}
+
 std::vector<int> sortBogo(std::vector<int> input, long &counter) {
     std::vector<int> temp;
     int tmp, n, randomIndex;

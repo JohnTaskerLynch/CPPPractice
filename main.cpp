@@ -2,14 +2,20 @@
 #include "vector"
 #include "Sort.h"
 #include "raylib.h"
+#include "cmath"
 
 using namespace std;
 
-// window attributes
-const int SCREEN_WIDTH = 1000, SCREEN_HEIGHT = 500, FPS_LIMIT = 60;
+// bar dimensions
+int barWidth = 35;
+float offset = 0;
 
-// input array
-const vector<int> TEST_ARRAY = {1, 4, 3, 2, 6, 5, 8, 7, 9, 10, 12, 11};
+// input array and its complexity calculation
+const vector<int> TEST_ARRAY = {1, 4, 3, 2, 5, 6 , 7};
+int complexity = factorial(TEST_ARRAY.size());
+
+// window attributes
+const int SCREEN_WIDTH = (barWidth*TEST_ARRAY.size()), SCREEN_HEIGHT = 600, PASSES_PER_SECOND = 1000;
 
 // -- enter program -- //
 int main(void) {
@@ -21,17 +27,15 @@ int main(void) {
 
     // initialise window
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Bogosort Visualization");
-    SetTargetFPS(FPS_LIMIT);
+    SetTargetFPS(PASSES_PER_SECOND);
 
     // -- main loop -- //
     while (!WindowShouldClose()) {
         // -- variable loop -- //
+        offset = 0;
 
         // create pass array every frame
         vector<int> pass = sortBogo(TEST_ARRAY, counter);
-
-        // TODO: fix to make offset based on no. of bars and resolution
-        float offset = SCREEN_WIDTH/TEST_ARRAY.size();
 
         // -- end variable loop -- //
 
@@ -39,7 +43,10 @@ int main(void) {
         BeginDrawing();
 
         // x-axis line
-        DrawLine(0, xAxis, SCREEN_WIDTH, xAxis, WHITE);
+        DrawLine(0, xAxis, SCREEN_WIDTH, xAxis, BLUE);
+
+        // status terminal line
+        DrawLine(0, 100, SCREEN_WIDTH, 100, BLUE);
 
         // iterate through each pass value
         for(int i = 0; i < TEST_ARRAY.size(); i++) {
@@ -47,14 +54,17 @@ int main(void) {
             cout << pass.at(i) << " ";
 
             // draw a bar relative to the height of the current value
-            DrawRectangle(offset, (xAxis - (pass.at(i)*10)), 35, pass.at(i) * 10, WHITE);
+            DrawRectangle(offset, (xAxis - (pass.at(i)*10)), barWidth, pass.at(i) * 10, WHITE);
 
             // bar x pos offset increment
-            offset += 100;
+            offset += barWidth;
         }
 
-        // TODO: show passes counter on screen
+        // show passes counter on screen
+        DrawText(TextFormat("%i", counter), 25, 25, 12, WHITE);
 
+        // display expected no. of passes to completion using expected big-o complexity
+        DrawText(TextFormat("%i", complexity), 25, 75, 12, WHITE);
 
         // newline for each pass
         cout << "- pass " << counter << endl;
