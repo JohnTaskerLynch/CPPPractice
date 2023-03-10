@@ -11,11 +11,13 @@ int barWidth = 35;
 float offset = 0;
 
 // input array and its complexity calculation
-const vector<int> TEST_ARRAY = {1, 4, 3, 2, 5, 6 , 7};
+const vector<int> TEST_ARRAY = {1, 4, 3, 2, 5, 6, 7};
 int complexity = factorial(TEST_ARRAY.size());
 
 // window attributes
 const int SCREEN_WIDTH = (barWidth*TEST_ARRAY.size()), SCREEN_HEIGHT = 600, PASSES_PER_SECOND = 1000;
+
+CLITERAL(Color) counterColor = RED;
 
 // -- enter program -- //
 int main(void) {
@@ -45,9 +47,6 @@ int main(void) {
         // x-axis line
         DrawLine(0, xAxis, SCREEN_WIDTH, xAxis, BLUE);
 
-        // status terminal line
-        DrawLine(0, 100, SCREEN_WIDTH, 100, BLUE);
-
         // iterate through each pass value
         for(int i = 0; i < TEST_ARRAY.size(); i++) {
             // print current value to terminal
@@ -61,17 +60,22 @@ int main(void) {
         }
 
         // show passes counter on screen
-        DrawText(TextFormat("%i", counter), 25, 25, 12, WHITE);
+        DrawText(TextFormat("%i", counter), 1, 1, 35, counterColor);
 
         // display expected no. of passes to completion using expected big-o complexity
-        DrawText(TextFormat("%i", complexity), 25, 75, 12, WHITE);
+        DrawText(TextFormat("%i", complexity), 1, 36, 35, GREEN);
+
+        // change color of counter display if it is an unlikely amount of passes
+        if(counter > complexity) {
+            counterColor = GREEN;
+        }
 
         // newline for each pass
         cout << "- pass " << counter << endl;
 
         // TODO: close screen if bars get into order and display final solution
         if(checkOrder(pass)) {
-            CloseWindow();
+            return 0;
         }
 
         // clear current frame
@@ -84,6 +88,5 @@ int main(void) {
     }
 
     // -- exit program -- //
-    CloseWindow();
     return 0;
 }

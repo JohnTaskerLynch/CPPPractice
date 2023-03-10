@@ -25,13 +25,13 @@ int factorial(int input) {
 std::vector<int> sortBogo(std::vector<int> input, long &counter) {
     std::vector<int> temp;
     int tmp, n, randomIndex;
-    //srand(time(0));
 
     for(int i : input) {
         temp.push_back(i);
     }
 
     for(int i = 0, n = input.size(); i < n; i++) {
+        //srand(time(0));
         tmp = temp[i];
         randomIndex = rand() % n;
         temp[i] = temp[randomIndex];
