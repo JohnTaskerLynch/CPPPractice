@@ -13,7 +13,7 @@ const int SCREEN_WIDTH = 940, SCREEN_HEIGHT = 500, FPS_LIMIT = 1;
 // input array
 const vector<int> TEST_ARRAY = {1, 4, 3, 2, 6, 5, 8, 7, 9, 10, 12, 11};
 
-// -- enter program --
+// -- enter program -- //
 int main(void) {
     // location of x-axis
     int xAxis = 475;
@@ -25,7 +25,7 @@ int main(void) {
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Bogosort Visualization");
     SetTargetFPS(FPS_LIMIT);
 
-    // -- main loop --
+    // -- main loop -- //
     while (!WindowShouldClose()) {
         // -- variable loop --
 
@@ -35,9 +35,9 @@ int main(void) {
         // TODO: make offset based on no. of bars
         float offset = SCREEN_WIDTH/TEST_ARRAY.size();
 
-        // -- end variable loop --
+        // -- end variable loop -- //
 
-        // -- drawing --
+        // -- drawing -- //
         BeginDrawing();
 
         // x-axis line
@@ -69,13 +69,13 @@ int main(void) {
         // clear current frame
         ClearBackground(BLACK);
 
-        // -- end drawing --
+        // -- end drawing -- //
         EndDrawing();
 
-        // -- exit main loop --
+        // -- exit main loop -- //
     }
 
-    // -- exit program --
+    // -- exit program -- //
     CloseWindow();
     return 0;
 }
