@@ -1,19 +1,21 @@
 #include "Sort.h"
 
-static bool checkOrder(std::vector<int> input) {
+bool checkOrder(std::vector<int> input) {
     bool temp = true;
+
     for(int i = 0; i < input.size()-1; i++) {
         if(input[i] > input[i+1]) {
             temp = false;
         }
     }
+
     return temp;
 }
 
 std::vector<int> sortBogo(std::vector<int> input, long &counter) {
     std::vector<int> temp;
     int tmp, n, randomIndex;
-    srand(time(0));
+    //srand(time(0));
 
     for(int i : input) {
         temp.push_back(i);

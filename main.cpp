@@ -7,50 +7,18 @@
 
 using namespace std;
 
-int screenWidth = 950, screenHeight = 500;
-
-
-//vector<int> playSorter(vector<int> &testArray) {
-//        long passCounter = 1;
-//        int input;
-//
-//        cout << "This is the test array - ";
-//        for(int x : testArray) {
-//            cout << x << " ";
-//        }
-//
-//        cout << "\n1: Bogosort\n2: Gigglesort\n3: Bogobogosort" << endl;
-//        cout << "Pick your poison: ";
-//        cin >> input;
-//
-//        switch(input) {
-//            case 1:
-//                sortBogo(testArray, passCounter);
-//                cout << "Bogo sorted in " << passCounter << " passes.";
-//            case 2:
-//                sortGiggle(testArray, passCounter);
-//                cout << "Giggle sorted in " << passCounter << " passes.";
-//            case 3:
-//                sortBogoBogo(testArray, passCounter);
-//                cout << "Bogobogo sorted in " << passCounter << " passes.";
-//            default:
-//                cout << "ERR";
-//        }
-//}
+const int screenWidth = 950, screenHeight = 500;
 
 int main(void) {
-    // input array, counter for completion passes and length
-    vector<int> testArray = {1, 4, 3, 6, 2, 5, 7};
-    long counter;
-    vector<Rectangle> bars;
+    // input array
+    vector<int> testArray = {1, 4, 3, 2, 6, 5, 8, 7};
 
-    for(int i = 0; i < testArray.size(); i++) {
-        bars.push_back(Rectangle());
-    }
+    // pass counter
+    long counter;
 
     // initialise window
     InitWindow(screenWidth, screenHeight, "Bogo");
-    SetTargetFPS(1);
+    SetTargetFPS(250);
 
     // main loop
     while (!WindowShouldClose()) {
@@ -64,13 +32,29 @@ int main(void) {
 
         // sort
         for(int i = 0; i < testArray.size(); i++) {
+            // print current value to terminal
             cout << pass.at(i);
+
+            // draw a bar relative to the height of the current value
             DrawRectangle(offset, screenHeight - (400+pass.at(i)*10), 35, pass.at(i)*10, WHITE);
-            //DrawText(reinterpret_cast<const char *>(counter), 250, 250, 20, WHITE);
+
+            // -- make a way to display passes here --
+
+            // bar x pos offset increment
             offset += 100;
         }
 
+        // newline for each pass
         cout << endl;
+
+        // close screen if bars get into order
+        if(checkOrder(pass)) {
+            CloseWindow();
+            return 0;
+        }
+
+        // clear current frame
+        ClearBackground(BLACK);
 
         // end drawing
         EndDrawing();

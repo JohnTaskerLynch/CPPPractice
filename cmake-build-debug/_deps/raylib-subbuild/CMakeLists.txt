@@ -14,8 +14,8 @@ project(raylib-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(raylib-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "URL" "https://github.com/raysan5/raylib/archive/master.tar.gz"
-                    SOURCE_DIR          "C:/Users/csf21taj/CLionProjects/CPPPractice/cmake-build-debug/_deps/raylib-src"
-                    BINARY_DIR          "C:/Users/csf21taj/CLionProjects/CPPPractice/cmake-build-debug/_deps/raylib-build"
+                    SOURCE_DIR          "C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src"
+                    BINARY_DIR          "C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""
