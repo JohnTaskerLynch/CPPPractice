@@ -6,7 +6,7 @@
 using namespace std;
 
 // window attributes
-const int SCREEN_WIDTH = 940, SCREEN_HEIGHT = 500, FPS_LIMIT = 1;
+const int SCREEN_WIDTH = 1000, SCREEN_HEIGHT = 500, FPS_LIMIT = 60;
 
 // input array
 const vector<int> TEST_ARRAY = {1, 4, 3, 2, 6, 5, 8, 7, 9, 10, 12, 11};
@@ -14,7 +14,7 @@ const vector<int> TEST_ARRAY = {1, 4, 3, 2, 6, 5, 8, 7, 9, 10, 12, 11};
 // -- enter program -- //
 int main(void) {
     // location of x-axis
-    int xAxis = 475;
+    int xAxis = SCREEN_HEIGHT - 25;
 
     // pass counter
     long counter = 0;
@@ -30,7 +30,7 @@ int main(void) {
         // create pass array every frame
         vector<int> pass = sortBogo(TEST_ARRAY, counter);
 
-        // TODO: fix to make offset based on no. of bars
+        // TODO: fix to make offset based on no. of bars and resolution
         float offset = SCREEN_WIDTH/TEST_ARRAY.size();
 
         // -- end variable loop -- //
