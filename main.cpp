@@ -7,7 +7,7 @@
 
 using namespace std;
 
-const int screenWidth = 950, screenHeight = 500;
+const int SCREEN_WIDTH = 950, SCREEN_HEIGHT = 500;
 
 int main(void) {
     // input array
@@ -17,7 +17,7 @@ int main(void) {
     long counter;
 
     // initialise window
-    InitWindow(screenWidth, screenHeight, "Bogo");
+    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Bogo");
     SetTargetFPS(250);
 
     // main loop
@@ -28,7 +28,7 @@ int main(void) {
 
         // drawing
         BeginDrawing();
-        DrawLine(0, screenHeight - 400, screenWidth, screenHeight - 400, WHITE);
+        DrawLine(0, SCREEN_HEIGHT - 400, SCREEN_WIDTH, SCREEN_HEIGHT - 400, WHITE);
 
         // sort
         for(int i = 0; i < testArray.size(); i++) {
@@ -36,9 +36,9 @@ int main(void) {
             cout << pass.at(i);
 
             // draw a bar relative to the height of the current value
-            DrawRectangle(offset, screenHeight - (400+pass.at(i)*10), 35, pass.at(i)*10, WHITE);
+            DrawRectangle(offset, SCREEN_HEIGHT - (400 + pass.at(i) * 10), 35, pass.at(i) * 10, WHITE);
 
-            // -- make a way to display passes here --
+            // TODO: show passes counter on screen
 
             // bar x pos offset increment
             offset += 100;
@@ -50,7 +50,6 @@ int main(void) {
         // close screen if bars get into order
         if(checkOrder(pass)) {
             CloseWindow();
-            return 0;
         }
 
         // clear current frame
