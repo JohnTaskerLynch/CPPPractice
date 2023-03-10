@@ -1,8 +1,6 @@
 #include <iostream>
-#include "stdlib.h"
 #include "vector"
 #include "Sort.h"
-#include "ctime"
 #include "raylib.h"
 
 using namespace std;
@@ -27,12 +25,12 @@ int main(void) {
 
     // -- main loop -- //
     while (!WindowShouldClose()) {
-        // -- variable loop --
+        // -- variable loop -- //
 
         // create pass array every frame
         vector<int> pass = sortBogo(TEST_ARRAY, counter);
 
-        // TODO: make offset based on no. of bars
+        // TODO: fix to make offset based on no. of bars
         float offset = SCREEN_WIDTH/TEST_ARRAY.size();
 
         // -- end variable loop -- //
@@ -51,17 +49,17 @@ int main(void) {
             // draw a bar relative to the height of the current value
             DrawRectangle(offset, (xAxis - (pass.at(i)*10)), 35, pass.at(i) * 10, WHITE);
 
-            // TODO: show passes counter on screen
-
-
             // bar x pos offset increment
             offset += 100;
         }
 
+        // TODO: show passes counter on screen
+
+
         // newline for each pass
         cout << "- pass " << counter << endl;
 
-        // close screen if bars get into order
+        // TODO: close screen if bars get into order and display final solution
         if(checkOrder(pass)) {
             CloseWindow();
         }
