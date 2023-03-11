@@ -256,6 +256,30 @@ Graphics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Graphics.cpp.s
 .PHONY : Graphics.cpp.s
 
+Math.obj: Math.cpp.obj
+.PHONY : Math.obj
+
+# target to build an object file
+Math.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Math.cpp.obj
+.PHONY : Math.cpp.obj
+
+Math.i: Math.cpp.i
+.PHONY : Math.i
+
+# target to preprocess a source file
+Math.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Math.cpp.i
+.PHONY : Math.cpp.i
+
+Math.s: Math.cpp.s
+.PHONY : Math.s
+
+# target to generate assembly for a file
+Math.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Math.cpp.s
+.PHONY : Math.cpp.s
+
 Sort.obj: Sort.cpp.obj
 .PHONY : Sort.obj
 
@@ -325,6 +349,9 @@ help:
 	@echo ... Graphics.obj
 	@echo ... Graphics.i
 	@echo ... Graphics.s
+	@echo ... Math.obj
+	@echo ... Math.i
+	@echo ... Math.s
 	@echo ... Sort.obj
 	@echo ... Sort.i
 	@echo ... Sort.s

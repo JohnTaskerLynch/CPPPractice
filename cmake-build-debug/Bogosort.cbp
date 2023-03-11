@@ -278,6 +278,12 @@
 		<Unit filename="C:/Users/bongo/CLionProjects/CPPPractice/Graphics.h">
 			<Option target="Bogosort"/>
 		</Unit>
+		<Unit filename="C:/Users/bongo/CLionProjects/CPPPractice/Math.cpp">
+			<Option target="Bogosort"/>
+		</Unit>
+		<Unit filename="C:/Users/bongo/CLionProjects/CPPPractice/Math.h">
+			<Option target="Bogosort"/>
+		</Unit>
 		<Unit filename="C:/Users/bongo/CLionProjects/CPPPractice/Sort.cpp">
 			<Option target="Bogosort"/>
 		</Unit>

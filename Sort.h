@@ -5,7 +5,6 @@
 #include "iostream"
 
 bool checkOrder(std::vector<int> input);
-int factorial(int input);
 std::vector<int> sortGiggle(std::vector<int> &input, long &counter);
 std::vector<int> sortBogo(std::vector<int> input, long &counter);
 std::vector<int> sortBogoBogo(std::vector<int> &input, long &counter);

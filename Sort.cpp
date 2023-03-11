@@ -12,16 +12,6 @@ bool checkOrder(std::vector<int> input) {
     return temp;
 }
 
-int factorial(int input) {
-    int factorial = 1;
-
-    for(int i = 1; i <= input; i++) {
-        factorial *= i;
-    }
-
-    return factorial;
-}
-
 std::vector<int> sortBogo(std::vector<int> input, long &counter) {
     std::vector<int> temp;
     int tmp, n, randomIndex;
@@ -43,6 +33,7 @@ std::vector<int> sortBogo(std::vector<int> input, long &counter) {
     return temp;
 }
 
+// TODO: fix giggle sort
 std::vector<int> sortGiggle(std::vector<int> &input, long &counter) {
     std::vector<int> temp;
     int tmp, randomIndex1, randomIndex2;
@@ -81,6 +72,7 @@ std::vector<int> sortGiggle(std::vector<int> &input, long &counter) {
     return temp;
 }
 
+// TODO: fix bogobogo sort
 std::vector<int> sortBogoBogo(std::vector<int> &input, long &counter) {
     std::vector<int> temp;
     int tmp, pos, randomIndex;

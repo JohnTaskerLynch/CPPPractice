@@ -3,20 +3,23 @@
 #include "Sort.h"
 #include "raylib.h"
 #include "cmath"
+#include "Math.h"
 
 using namespace std;
 
 // bar dimensions
-int barWidth = 35;
+int barWidth = 50;
 float offset = 0;
 
 // input array and its complexity calculation
-const vector<int> TEST_ARRAY = {1, 4, 3, 2, 5, 6, 7};
+const vector<int> TEST_ARRAY = {1, 4, 3, 2, 5, 6, 7, 8};
 int complexity = factorial(TEST_ARRAY.size());
 
 // window attributes
-const int SCREEN_WIDTH = (barWidth*TEST_ARRAY.size()), SCREEN_HEIGHT = 600, PASSES_PER_SECOND = 1000;
+const int GAP = 1;
+const int SCREEN_WIDTH = (barWidth*TEST_ARRAY.size()) + ((TEST_ARRAY.size()-1)*GAP), SCREEN_HEIGHT = 600, PASSES_PER_SECOND = 1000;
 
+// temp color for counter display
 CLITERAL(Color) counterColor = RED;
 
 // -- enter program -- //
@@ -29,15 +32,25 @@ int main(void) {
 
     // initialise window
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Bogosort Visualization");
+    InitAudioDevice();
     SetTargetFPS(PASSES_PER_SECOND);
+
+    // TODO: get sound to work
+    Sound beep = LoadSound("resources/roblox-death-sound_1 (1).wav");
 
     // -- main loop -- //
     while (!WindowShouldClose()) {
         // -- variable loop -- //
         offset = 0;
 
+        // TODO: be able to choose a sorting algorithm
+
+
         // create pass array every frame
         vector<int> pass = sortBogo(TEST_ARRAY, counter);
+
+        // play oof for every pass
+        PlaySound(beep);
 
         // -- end variable loop -- //
 
@@ -56,7 +69,7 @@ int main(void) {
             DrawRectangle(offset, (xAxis - (pass.at(i)*10)), barWidth, pass.at(i) * 10, WHITE);
 
             // bar x pos offset increment
-            offset += barWidth;
+            offset += barWidth + GAP;
         }
 
         // show passes counter on screen
@@ -86,6 +99,10 @@ int main(void) {
 
         // -- exit main loop -- //
     }
+
+    // -- de-initialization --
+    UnloadSound(beep);
+    CloseAudioDevice();
 
     // -- exit program -- //
     return 0;
