@@ -14,12 +14,28 @@ int factorial(int input) {
     return factorial;
 }
 
-float randDigit() {
-    double pi = std::atan(1)*4;
+int randDigit() {
+    double pi = atan(1)*4;
+    std::string stringPi = std::to_string(pi);
     std::vector<int> temp;
 
-    for(float i = 0; i < pi; i += 0.001) {
-        temp.push_back(i);
+    for(char c : stringPi) {
+        if(c == '.') {
+            int half = rand() % 4;
+            switch(half) {
+                case 1:
+                    temp.push_back(8);
+                    break;
+                case 2:
+                    temp.push_back(7);
+                    break;
+                case 3:
+                    temp.push_back(2);
+                    break;
+            }
+        } else {
+            temp.push_back(((int)c) - 48);
+        }
     }
 
     int randomIndex = rand() % temp.size();

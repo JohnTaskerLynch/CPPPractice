@@ -1,4 +1,5 @@
 #include "Sort.h"
+#include "Math.h";
 
 bool checkOrder(std::vector<int> input) {
     bool temp = true;
@@ -23,7 +24,7 @@ std::vector<int> sortBogo(std::vector<int> input, long &counter) {
     for(int i = 0, n = input.size(); i < n; i++) {
         //srand(time(0));
         tmp = temp[i];
-        randomIndex = rand() % n;
+        randomIndex = randDigit();
         temp[i] = temp[randomIndex];
         temp[randomIndex] = tmp;
     }

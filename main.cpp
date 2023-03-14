@@ -12,12 +12,12 @@ int barWidth = 50;
 float offset = 0;
 
 // input array and its complexity calculation
-const vector<int> TEST_ARRAY = {1, 4, 3, 2, 5, 6, 7, 8};
+const vector<int> TEST_ARRAY = {1, 4, 3, 2, 5};
 int complexity = factorial(TEST_ARRAY.size());
 
 // window attributes
 const int GAP = 1;
-const int SCREEN_WIDTH = (barWidth*TEST_ARRAY.size()) + ((TEST_ARRAY.size()-1)*GAP), SCREEN_HEIGHT = 600, PASSES_PER_SECOND = 1;
+const int SCREEN_WIDTH = (barWidth*TEST_ARRAY.size()) + ((TEST_ARRAY.size()-1)*GAP), SCREEN_HEIGHT = 600, PASSES_PER_SECOND = 110;
 
 // temp color for counter display
 CLITERAL(Color) counterColor = RED;
