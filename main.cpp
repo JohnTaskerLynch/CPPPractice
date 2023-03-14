@@ -17,7 +17,7 @@ int complexity = factorial(TEST_ARRAY.size());
 
 // window attributes
 const int GAP = 1;
-const int SCREEN_WIDTH = (barWidth*TEST_ARRAY.size()) + ((TEST_ARRAY.size()-1)*GAP), SCREEN_HEIGHT = 600, PASSES_PER_SECOND = 1000;
+const int SCREEN_WIDTH = (barWidth*TEST_ARRAY.size()) + ((TEST_ARRAY.size()-1)*GAP), SCREEN_HEIGHT = 600, PASSES_PER_SECOND = 1;
 
 // temp color for counter display
 CLITERAL(Color) counterColor = RED;
@@ -44,7 +44,8 @@ int main(void) {
         offset = 0;
 
         // TODO: be able to choose a sorting algorithm
-
+        cout << randDigit() << endl;
+        //printPi();
 
         // create pass array every frame
         vector<int> pass = sortBogo(TEST_ARRAY, counter);

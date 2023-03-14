@@ -4,7 +4,13 @@
 
 #ifndef Math
 #define Math
+#include "cstdlib"
+#include "vector"
+#include "iostream"
+#include "cmath"
 
 int factorial(int input);
+int randDigit();
+void printPi();
 
 #endif //Math

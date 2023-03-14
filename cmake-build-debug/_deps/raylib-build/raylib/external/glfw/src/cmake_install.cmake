@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/bongo/CLionProjects/CPPPractice/cmake-build-debug/_deps/raylib-src/src/external/glfw/src
+# Install script for directory: C:/Users/csf21taj/CLionProjects/CPPPractice/cmake-build-debug/_deps/raylib-src/src/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/csf21taj/AppData/Local/JetBrains/CLion 2022.3.3/bin/mingw/bin/objdump.exe")
 endif()
 
