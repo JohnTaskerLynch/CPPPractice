@@ -31,7 +31,7 @@ int main(void) {
     long counter = 0;
 
     // initialise window
-    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Bogosort Visualization");
+    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "SortVisualisation Visualization");
     InitAudioDevice();
     SetTargetFPS(PASSES_PER_SECOND);
 

@@ -181,7 +181,7 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Bogosort
+# Target rules for targets named SortVisualiser
 
 # Build rule for target.
 Bogosort: cmake_check_build_system

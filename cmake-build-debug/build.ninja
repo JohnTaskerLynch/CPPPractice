@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Bogosort
+# Project: SortVisualiser
 # Configurations: Debug
 # =============================================================================
 
@@ -39,71 +39,72 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Bogosort
+# Object build statements for EXECUTABLE target SortVisualiser
 
 
 #############################################
-# Order-only phony target for Bogosort
+# Order-only phony target for SortVisualiser
 
-build cmake_object_order_depends_target_Bogosort: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_raylib
+build cmake_object_order_depends_target_SortVisualiser: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_raylib
 
-build CMakeFiles/Bogosort.dir/main.cpp.obj: CXX_COMPILER__Bogosort_Debug C$:/Users/bongo/CLionProjects/Bogosort/main.cpp || cmake_object_order_depends_target_Bogosort
+build CMakeFiles/SortVisualiser.dir/main.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/main.cpp || cmake_object_order_depends_target_SortVisualiser
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Bogosort.dir\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\SortVisualiser.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Bogosort.dir
-  OBJECT_FILE_DIR = CMakeFiles\Bogosort.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Bogosort.dir\
-  TARGET_PDB = Bogosort.pdb
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = CMakeFiles\SortVisualiser.dir
+  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir
 
-build CMakeFiles/Bogosort.dir/Sort.cpp.obj: CXX_COMPILER__Bogosort_Debug C$:/Users/bongo/CLionProjects/Bogosort/Sort.cpp || cmake_object_order_depends_target_Bogosort
+build CMakeFiles/SortVisualiser.dir/Sort.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/Sort.cpp || cmake_object_order_depends_target_SortVisualiser
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Bogosort.dir\Sort.cpp.obj.d
+  DEP_FILE = CMakeFiles\SortVisualiser.dir\Sort.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Bogosort.dir
-  OBJECT_FILE_DIR = CMakeFiles\Bogosort.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Bogosort.dir\
-  TARGET_PDB = Bogosort.pdb
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = CMakeFiles\SortVisualiser.dir
+  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir
 
-build CMakeFiles/Bogosort.dir/Graphics.cpp.obj: CXX_COMPILER__Bogosort_Debug C$:/Users/bongo/CLionProjects/Bogosort/Graphics.cpp || cmake_object_order_depends_target_Bogosort
+build CMakeFiles/SortVisualiser.dir/Graphics.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/Graphics.cpp || cmake_object_order_depends_target_SortVisualiser
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Bogosort.dir\Graphics.cpp.obj.d
+  DEP_FILE = CMakeFiles\SortVisualiser.dir\Graphics.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
-  OBJECT_DIR = CMakeFiles\Bogosort.dir
-  OBJECT_FILE_DIR = CMakeFiles\Bogosort.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Bogosort.dir\
-  TARGET_PDB = Bogosort.pdb
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = CMakeFiles\SortVisualiser.dir
+  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir
+
+build CMakeFiles/SortVisualiser.dir/Math.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/Math.cpp || cmake_object_order_depends_target_SortVisualiser
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\SortVisualiser.dir\Math.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = CMakeFiles\SortVisualiser.dir
+  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Bogosort
+# Link build statements for EXECUTABLE target SortVisualiser
 
 
 #############################################
-# Link the executable Bogosort.exe
+# Link the executable SortVisualiser.exe
 
-build Bogosort.exe: CXX_EXECUTABLE_LINKER__Bogosort_Debug CMakeFiles/Bogosort.dir/main.cpp.obj CMakeFiles/Bogosort.dir/Sort.cpp.obj CMakeFiles/Bogosort.dir/Graphics.cpp.obj | _deps/raylib-build/raylib/libraylib.a _deps/raylib-build/raylib/external/glfw/src/libglfw3.a || _deps/raylib-build/raylib/external/glfw/src/libglfw3.a _deps/raylib-build/raylib/libraylib.a
+build SortVisualiser.exe: CXX_EXECUTABLE_LINKER__SortVisualiser_Debug CMakeFiles/SortVisualiser.dir/main.cpp.obj CMakeFiles/SortVisualiser.dir/Sort.cpp.obj CMakeFiles/SortVisualiser.dir/Graphics.cpp.obj CMakeFiles/SortVisualiser.dir/Math.cpp.obj | _deps/raylib-build/raylib/libraylib.a _deps/raylib-build/raylib/external/glfw/src/libglfw3.a || _deps/raylib-build/raylib/external/glfw/src/libglfw3.a _deps/raylib-build/raylib/libraylib.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/raylib-build/raylib/libraylib.a  -lopengl32  -lglu32  -lwinmm  _deps/raylib-build/raylib/external/glfw/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Bogosort.dir
+  OBJECT_DIR = CMakeFiles\SortVisualiser.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Bogosort.dir\
-  TARGET_FILE = Bogosort.exe
-  TARGET_IMPLIB = libBogosort.dll.a
-  TARGET_PDB = Bogosort.pdb
+  TARGET_FILE = SortVisualiser.exe
+  TARGET_IMPLIB = libSortVisualiser.dll.a
+  TARGET_PDB = SortVisualiser.exe.dbg
 
 
 #############################################
 # Utility command for package
 
 build CMakeFiles/package.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -115,7 +116,7 @@ build package: phony CMakeFiles/package.util
 # Utility command for package_source
 
 build CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/CPackSourceConfig.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -127,7 +128,7 @@ build package_source: phony CMakeFiles/package_source.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -138,7 +139,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bongo\CLionProjects\Bogosort -BC:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bongo\CLionProjects\SortVisualisation -BC:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -156,7 +157,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -168,7 +169,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -180,7 +181,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -189,7 +190,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/bongo/CLionProjects/Bogosort/CMakeLists.txt
+# C:/Users/bongo/CLionProjects/SortVisualisation/CMakeLists.txt
 # =============================================================================
 
 
@@ -197,7 +198,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for package
 
 build _deps/raylib-build/CMakeFiles/package.util: CUSTOM_COMMAND _deps/raylib-build/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -209,7 +210,7 @@ build _deps/raylib-build/package: phony _deps/raylib-build/CMakeFiles/package.ut
 # Utility command for package_source
 
 build _deps/raylib-build/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/CPackSourceConfig.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -221,7 +222,7 @@ build _deps/raylib-build/package_source: phony _deps/raylib-build/CMakeFiles/pac
 # Utility command for edit_cache
 
 build _deps/raylib-build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -232,7 +233,7 @@ build _deps/raylib-build/edit_cache: phony _deps/raylib-build/CMakeFiles/edit_ca
 # Utility command for rebuild_cache
 
 build _deps/raylib-build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bongo\CLionProjects\Bogosort -BC:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bongo\CLionProjects\SortVisualisation -BC:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -250,7 +251,7 @@ build _deps/raylib-build/list_install_components: phony
 # Utility command for install
 
 build _deps/raylib-build/CMakeFiles/install.util: CUSTOM_COMMAND _deps/raylib-build/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -262,7 +263,7 @@ build _deps/raylib-build/install: phony _deps/raylib-build/CMakeFiles/install.ut
 # Utility command for install/local
 
 build _deps/raylib-build/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/raylib-build/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -274,7 +275,7 @@ build _deps/raylib-build/install/local: phony _deps/raylib-build/CMakeFiles/inst
 # Utility command for install/strip
 
 build _deps/raylib-build/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/raylib-build/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -283,7 +284,7 @@ build _deps/raylib-build/install/strip: phony _deps/raylib-build/CMakeFiles/inst
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/CMakeLists.txt
+# C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -295,75 +296,61 @@ build _deps/raylib-build/install/strip: phony _deps/raylib-build/CMakeFiles/inst
 
 build cmake_object_order_depends_target_raylib: phony || cmake_object_order_depends_target_glfw
 
-build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/rcore.c || cmake_object_order_depends_target_raylib
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/rcore.c || cmake_object_order_depends_target_raylib
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rcore.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -std=gnu99
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\libraylib.pdb
 
-build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/rmodels.c || cmake_object_order_depends_target_raylib
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/rmodels.c || cmake_object_order_depends_target_raylib
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rmodels.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -std=gnu99
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\libraylib.pdb
 
-build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/rshapes.c || cmake_object_order_depends_target_raylib
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/rshapes.c || cmake_object_order_depends_target_raylib
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rshapes.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -std=gnu99
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\libraylib.pdb
 
-build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/rtext.c || cmake_object_order_depends_target_raylib
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/rtext.c || cmake_object_order_depends_target_raylib
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rtext.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -std=gnu99
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\libraylib.pdb
 
-build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/rtextures.c || cmake_object_order_depends_target_raylib
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/rtextures.c || cmake_object_order_depends_target_raylib
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rtextures.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -std=gnu99
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\libraylib.pdb
 
-build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/utils.c || cmake_object_order_depends_target_raylib
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/utils.c || cmake_object_order_depends_target_raylib
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\utils.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -std=gnu99
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\libraylib.pdb
 
-build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/raudio.c || cmake_object_order_depends_target_raylib
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: C_COMPILER__raylib_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/raudio.c || cmake_object_order_depends_target_raylib
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
   DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raudio.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -std=gnu99
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -isystem C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\libraylib.pdb
 
 
 # =============================================================================
@@ -378,16 +365,15 @@ build _deps/raylib-build/raylib/libraylib.a: C_STATIC_LIBRARY_LINKER__raylib_Deb
   OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raylib.pdb
   TARGET_FILE = _deps\raylib-build\raylib\libraylib.a
-  TARGET_PDB = _deps\raylib-build\raylib\libraylib.pdb
+  TARGET_PDB = raylib.a.dbg
 
 
 #############################################
 # Utility command for package
 
 build _deps/raylib-build/raylib/CMakeFiles/package.util: CUSTOM_COMMAND _deps/raylib-build/raylib/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -399,7 +385,7 @@ build _deps/raylib-build/raylib/package: phony _deps/raylib-build/raylib/CMakeFi
 # Utility command for package_source
 
 build _deps/raylib-build/raylib/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/CPackSourceConfig.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -411,7 +397,7 @@ build _deps/raylib-build/raylib/package_source: phony _deps/raylib-build/raylib/
 # Utility command for edit_cache
 
 build _deps/raylib-build/raylib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -422,7 +408,7 @@ build _deps/raylib-build/raylib/edit_cache: phony _deps/raylib-build/raylib/CMak
 # Utility command for rebuild_cache
 
 build _deps/raylib-build/raylib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bongo\CLionProjects\Bogosort -BC:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bongo\CLionProjects\SortVisualisation -BC:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -440,7 +426,7 @@ build _deps/raylib-build/raylib/list_install_components: phony
 # Utility command for install
 
 build _deps/raylib-build/raylib/CMakeFiles/install.util: CUSTOM_COMMAND _deps/raylib-build/raylib/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -452,7 +438,7 @@ build _deps/raylib-build/raylib/install: phony _deps/raylib-build/raylib/CMakeFi
 # Utility command for install/local
 
 build _deps/raylib-build/raylib/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/raylib-build/raylib/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -464,7 +450,7 @@ build _deps/raylib-build/raylib/install/local: phony _deps/raylib-build/raylib/C
 # Utility command for install/strip
 
 build _deps/raylib-build/raylib/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/raylib-build/raylib/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -473,7 +459,7 @@ build _deps/raylib-build/raylib/install/strip: phony _deps/raylib-build/raylib/C
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/cmake/GlfwImport.cmake
+# C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/cmake/GlfwImport.cmake
 # =============================================================================
 
 
@@ -481,7 +467,7 @@ build _deps/raylib-build/raylib/install/strip: phony _deps/raylib-build/raylib/C
 # Utility command for package
 
 build _deps/raylib-build/raylib/external/glfw/CMakeFiles/package.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -493,7 +479,7 @@ build _deps/raylib-build/raylib/external/glfw/package: phony _deps/raylib-build/
 # Utility command for package_source
 
 build _deps/raylib-build/raylib/external/glfw/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/CPackSourceConfig.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -505,7 +491,7 @@ build _deps/raylib-build/raylib/external/glfw/package_source: phony _deps/raylib
 # Utility command for edit_cache
 
 build _deps/raylib-build/raylib/external/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -516,7 +502,7 @@ build _deps/raylib-build/raylib/external/glfw/edit_cache: phony _deps/raylib-bui
 # Utility command for rebuild_cache
 
 build _deps/raylib-build/raylib/external/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bongo\CLionProjects\Bogosort -BC:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bongo\CLionProjects\SortVisualisation -BC:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -534,7 +520,7 @@ build _deps/raylib-build/raylib/external/glfw/list_install_components: phony
 # Utility command for install
 
 build _deps/raylib-build/raylib/external/glfw/CMakeFiles/install.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -546,7 +532,7 @@ build _deps/raylib-build/raylib/external/glfw/install: phony _deps/raylib-build/
 # Utility command for install/local
 
 build _deps/raylib-build/raylib/external/glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -558,7 +544,7 @@ build _deps/raylib-build/raylib/external/glfw/install/local: phony _deps/raylib-
 # Utility command for install/strip
 
 build _deps/raylib-build/raylib/external/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -567,7 +553,7 @@ build _deps/raylib-build/raylib/external/glfw/install/strip: phony _deps/raylib-
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMakeLists.txt
+# C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -579,215 +565,173 @@ build _deps/raylib-build/raylib/external/glfw/install/strip: phony _deps/raylib-
 
 build cmake_object_order_depends_target_glfw: phony || _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/context.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/init.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/input.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\input.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/platform.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\platform.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/window.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
-build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fdiagnostics-color=always -Wall -std=c99 -Wdeclaration-after-statement
-  INCLUDES = -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
 
 
 # =============================================================================
@@ -802,9 +746,8 @@ build _deps/raylib-build/raylib/external/glfw/src/libglfw3.a: C_STATIC_LIBRARY_L
   OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_FILE = _deps\raylib-build\raylib\external\glfw\src\libglfw3.a
-  TARGET_PDB = _deps\raylib-build\raylib\external\glfw\src\libglfw3.pdb
+  TARGET_PDB = glfw3.a.dbg
 
 
 #############################################
@@ -817,7 +760,7 @@ build _deps/raylib-build/raylib/external/glfw/src/update_mappings: phony _deps/r
 # Utility command for package
 
 build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/package.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/src/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -829,7 +772,7 @@ build _deps/raylib-build/raylib/external/glfw/src/package: phony _deps/raylib-bu
 # Utility command for package_source
 
 build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/CPackSourceConfig.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -841,7 +784,7 @@ build _deps/raylib-build/raylib/external/glfw/src/package_source: phony _deps/ra
 # Utility command for edit_cache
 
 build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -852,7 +795,7 @@ build _deps/raylib-build/raylib/external/glfw/src/edit_cache: phony _deps/raylib
 # Utility command for rebuild_cache
 
 build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bongo\CLionProjects\Bogosort -BC:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\bongo\CLionProjects\SortVisualisation -BC:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -870,7 +813,7 @@ build _deps/raylib-build/raylib/external/glfw/src/list_install_components: phony
 # Utility command for install
 
 build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/src/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -882,7 +825,7 @@ build _deps/raylib-build/raylib/external/glfw/src/install: phony _deps/raylib-bu
 # Utility command for install/local
 
 build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/src/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -894,7 +837,7 @@ build _deps/raylib-build/raylib/external/glfw/src/install/local: phony _deps/ray
 # Utility command for install/strip
 
 build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/src/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -906,13 +849,13 @@ build _deps/raylib-build/raylib/external/glfw/src/install/strip: phony _deps/ray
 # Custom command for _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings
 
 build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\Bogosort\cmake-build-debug\_deps\raylib-src\src\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
+  COMMAND = cmd.exe /C "cd /D C:\Users\bongo\CLionProjects\SortVisualisation\cmake-build-debug\_deps\raylib-src\src\external\glfw\src && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -P C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
 # Target aliases.
 
-build Bogosort: phony Bogosort.exe
+build SortVisualiser: phony SortVisualiser.exe
 
 build glfw: phony _deps/raylib-build/raylib/external/glfw/src/libglfw3.a
 
@@ -930,35 +873,35 @@ build update_mappings: phony _deps/raylib-build/raylib/external/glfw/src/update_
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug
+# Folder: C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug
 
-build all: phony Bogosort.exe _deps/raylib-build/all
+build all: phony SortVisualiser.exe _deps/raylib-build/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build
+# Folder: C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build
 
 build _deps/raylib-build/all: phony _deps/raylib-build/raylib/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib
+# Folder: C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib
 
 build _deps/raylib-build/raylib/all: phony _deps/raylib-build/raylib/libraylib.a _deps/raylib-build/raylib/external/glfw/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw
+# Folder: C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw
 
 build _deps/raylib-build/raylib/external/glfw/all: phony _deps/raylib-build/raylib/external/glfw/src/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/bongo/CLionProjects/Bogosort/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
+# Folder: C:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-build/raylib/external/glfw/src
 
 build _deps/raylib-build/raylib/external/glfw/src/all: phony _deps/raylib-build/raylib/external/glfw/src/libglfw3.a
 
@@ -969,14 +912,14 @@ build _deps/raylib-build/raylib/external/glfw/src/all: phony _deps/raylib-build/
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CPack.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CPackComponent.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckIncludeFile.c.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Templates/CPackConfig.cmake.in C$:/Users/bongo/CLionProjects/Bogosort/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake _deps/raylib-src/CMakeLists.txt _deps/raylib-src/CMakeOptions.txt _deps/raylib-src/cmake/AddIfFlagCompiles.cmake _deps/raylib-src/cmake/BuildOptions.cmake _deps/raylib-src/cmake/CompileDefinitions.cmake _deps/raylib-src/cmake/CompilerFlags.cmake _deps/raylib-src/cmake/EnumOption.cmake _deps/raylib-src/cmake/GlfwImport.cmake _deps/raylib-src/cmake/InstallConfigurations.cmake _deps/raylib-src/cmake/JoinPaths.cmake _deps/raylib-src/cmake/LibraryConfigurations.cmake _deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake _deps/raylib-src/cmake/PackConfigurations.cmake _deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake _deps/raylib-src/cmake/raylib-config-version.cmake _deps/raylib-src/raylib.pc.in _deps/raylib-src/src/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMake/glfw3.pc.in _deps/raylib-src/src/external/glfw/CMake/glfw3Config.cmake.in _deps/raylib-src/src/external/glfw/src/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CPack.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CPackComponent.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Templates/CPackConfig.cmake.in C$:/Users/bongo/CLionProjects/SortVisualisation/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake _deps/raylib-src/CMakeLists.txt _deps/raylib-src/CMakeOptions.txt _deps/raylib-src/cmake/AddIfFlagCompiles.cmake _deps/raylib-src/cmake/BuildOptions.cmake _deps/raylib-src/cmake/CompileDefinitions.cmake _deps/raylib-src/cmake/CompilerFlags.cmake _deps/raylib-src/cmake/EnumOption.cmake _deps/raylib-src/cmake/GlfwImport.cmake _deps/raylib-src/cmake/InstallConfigurations.cmake _deps/raylib-src/cmake/JoinPaths.cmake _deps/raylib-src/cmake/LibraryConfigurations.cmake _deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake _deps/raylib-src/cmake/PackConfigurations.cmake _deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake _deps/raylib-src/cmake/raylib-config-version.cmake _deps/raylib-src/raylib.pc.in _deps/raylib-src/src/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMake/glfw3.pc.in _deps/raylib-src/src/external/glfw/CMake/glfw3Config.cmake.in _deps/raylib-src/src/external/glfw/src/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CPack.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CPackComponent.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckIncludeFile.c.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Templates/CPackConfig.cmake.in C$:/Users/bongo/CLionProjects/Bogosort/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake _deps/raylib-src/CMakeLists.txt _deps/raylib-src/CMakeOptions.txt _deps/raylib-src/cmake/AddIfFlagCompiles.cmake _deps/raylib-src/cmake/BuildOptions.cmake _deps/raylib-src/cmake/CompileDefinitions.cmake _deps/raylib-src/cmake/CompilerFlags.cmake _deps/raylib-src/cmake/EnumOption.cmake _deps/raylib-src/cmake/GlfwImport.cmake _deps/raylib-src/cmake/InstallConfigurations.cmake _deps/raylib-src/cmake/JoinPaths.cmake _deps/raylib-src/cmake/LibraryConfigurations.cmake _deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake _deps/raylib-src/cmake/PackConfigurations.cmake _deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake _deps/raylib-src/cmake/raylib-config-version.cmake _deps/raylib-src/raylib.pc.in _deps/raylib-src/src/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMake/glfw3.pc.in _deps/raylib-src/src/external/glfw/CMake/glfw3Config.cmake.in _deps/raylib-src/src/external/glfw/src/CMakeLists.txt: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CPack.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CPackComponent.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.1/bin/cmake/win/share/cmake-3.24/Templates/CPackConfig.cmake.in C$:/Users/bongo/CLionProjects/SortVisualisation/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake _deps/raylib-src/CMakeLists.txt _deps/raylib-src/CMakeOptions.txt _deps/raylib-src/cmake/AddIfFlagCompiles.cmake _deps/raylib-src/cmake/BuildOptions.cmake _deps/raylib-src/cmake/CompileDefinitions.cmake _deps/raylib-src/cmake/CompilerFlags.cmake _deps/raylib-src/cmake/EnumOption.cmake _deps/raylib-src/cmake/GlfwImport.cmake _deps/raylib-src/cmake/InstallConfigurations.cmake _deps/raylib-src/cmake/JoinPaths.cmake _deps/raylib-src/cmake/LibraryConfigurations.cmake _deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake _deps/raylib-src/cmake/PackConfigurations.cmake _deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake _deps/raylib-src/cmake/raylib-config-version.cmake _deps/raylib-src/raylib.pc.in _deps/raylib-src/src/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMake/glfw3.pc.in _deps/raylib-src/src/external/glfw/CMake/glfw3Config.cmake.in _deps/raylib-src/src/external/glfw/src/CMakeLists.txt: phony
 
 
 #############################################
