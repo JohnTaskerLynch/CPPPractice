@@ -31,7 +31,7 @@ endif()
 
 # This is the main part:
 
-add_executable(${PROJECT_NAME} main.cpp Sort.cpp Graphics.cpp Math.h Math.cpp)
+add_executable(${PROJECT_NAME} SortVisualiser/main.cpp SortVisualiser/Sort.cpp SortVisualiser/Graphics.cpp SortVisualiser/Math.h SortVisualiser/Math.cpp AbstractDataStructures/main.cpp)
 #set(raylib_VERBOSE 1)
 target_link_libraries(${PROJECT_NAME} raylib)
 

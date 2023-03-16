@@ -44,8 +44,7 @@ int main(void) {
         offset = 0;
 
         // TODO: be able to choose a sorting algorithm
-        cout << randDigit() << endl;
-        //printPi();
+
 
         // create pass array every frame
         vector<int> pass = sortBogo(TEST_ARRAY, counter);

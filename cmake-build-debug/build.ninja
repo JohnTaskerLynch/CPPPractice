@@ -49,37 +49,45 @@ cmake_ninja_workdir = C$:/Users/bongo/CLionProjects/SortVisualisation/cmake-buil
 
 build cmake_object_order_depends_target_SortVisualiser: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_raylib
 
-build CMakeFiles/SortVisualiser.dir/main.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/main.cpp || cmake_object_order_depends_target_SortVisualiser
+build CMakeFiles/SortVisualiser.dir/SortVisualiser/main.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/SortVisualiser/main.cpp || cmake_object_order_depends_target_SortVisualiser
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\SortVisualiser.dir\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\SortVisualiser.dir\SortVisualiser\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\SortVisualiser.dir
-  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir
+  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir\SortVisualiser
 
-build CMakeFiles/SortVisualiser.dir/Sort.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/Sort.cpp || cmake_object_order_depends_target_SortVisualiser
+build CMakeFiles/SortVisualiser.dir/SortVisualiser/Sort.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/SortVisualiser/Sort.cpp || cmake_object_order_depends_target_SortVisualiser
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\SortVisualiser.dir\Sort.cpp.obj.d
+  DEP_FILE = CMakeFiles\SortVisualiser.dir\SortVisualiser\Sort.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\SortVisualiser.dir
-  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir
+  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir\SortVisualiser
 
-build CMakeFiles/SortVisualiser.dir/Graphics.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/Graphics.cpp || cmake_object_order_depends_target_SortVisualiser
+build CMakeFiles/SortVisualiser.dir/SortVisualiser/Graphics.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/SortVisualiser/Graphics.cpp || cmake_object_order_depends_target_SortVisualiser
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\SortVisualiser.dir\Graphics.cpp.obj.d
+  DEP_FILE = CMakeFiles\SortVisualiser.dir\SortVisualiser\Graphics.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\SortVisualiser.dir
-  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir
+  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir\SortVisualiser
 
-build CMakeFiles/SortVisualiser.dir/Math.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/Math.cpp || cmake_object_order_depends_target_SortVisualiser
+build CMakeFiles/SortVisualiser.dir/SortVisualiser/Math.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/SortVisualiser/Math.cpp || cmake_object_order_depends_target_SortVisualiser
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\SortVisualiser.dir\Math.cpp.obj.d
+  DEP_FILE = CMakeFiles\SortVisualiser.dir\SortVisualiser\Math.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\SortVisualiser.dir
-  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir
+  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir\SortVisualiser
+
+build CMakeFiles/SortVisualiser.dir/AbstractDataStructures/main.cpp.obj: CXX_COMPILER__SortVisualiser_Debug C$:/Users/bongo/CLionProjects/SortVisualisation/AbstractDataStructures/main.cpp || cmake_object_order_depends_target_SortVisualiser
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\SortVisualiser.dir\AbstractDataStructures\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src -IC:/Users/bongo/CLionProjects/SortVisualisation/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = CMakeFiles\SortVisualiser.dir
+  OBJECT_FILE_DIR = CMakeFiles\SortVisualiser.dir\AbstractDataStructures
 
 
 # =============================================================================
@@ -89,7 +97,7 @@ build CMakeFiles/SortVisualiser.dir/Math.cpp.obj: CXX_COMPILER__SortVisualiser_D
 #############################################
 # Link the executable SortVisualiser.exe
 
-build SortVisualiser.exe: CXX_EXECUTABLE_LINKER__SortVisualiser_Debug CMakeFiles/SortVisualiser.dir/main.cpp.obj CMakeFiles/SortVisualiser.dir/Sort.cpp.obj CMakeFiles/SortVisualiser.dir/Graphics.cpp.obj CMakeFiles/SortVisualiser.dir/Math.cpp.obj | _deps/raylib-build/raylib/libraylib.a _deps/raylib-build/raylib/external/glfw/src/libglfw3.a || _deps/raylib-build/raylib/external/glfw/src/libglfw3.a _deps/raylib-build/raylib/libraylib.a
+build SortVisualiser.exe: CXX_EXECUTABLE_LINKER__SortVisualiser_Debug CMakeFiles/SortVisualiser.dir/SortVisualiser/main.cpp.obj CMakeFiles/SortVisualiser.dir/SortVisualiser/Sort.cpp.obj CMakeFiles/SortVisualiser.dir/SortVisualiser/Graphics.cpp.obj CMakeFiles/SortVisualiser.dir/SortVisualiser/Math.cpp.obj CMakeFiles/SortVisualiser.dir/AbstractDataStructures/main.cpp.obj | _deps/raylib-build/raylib/libraylib.a _deps/raylib-build/raylib/external/glfw/src/libglfw3.a || _deps/raylib-build/raylib/external/glfw/src/libglfw3.a _deps/raylib-build/raylib/libraylib.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/raylib-build/raylib/libraylib.a  -lopengl32  -lglu32  -lwinmm  _deps/raylib-build/raylib/external/glfw/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SortVisualiser.dir
