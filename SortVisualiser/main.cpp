@@ -10,15 +10,15 @@ using namespace std;
 // bar dimensions
 int barWidth = 12;
 float offset = 0;
-int barMagnitude = 20;
+int barMagnitude = 100;
 
 // input array and its complexity calculation
-const vector<int> TEST_ARRAY = generateArray(barMagnitude);
+vector<int> TEST_ARRAY = generateArray(barMagnitude);
 int complexity = factorial(TEST_ARRAY.size());
 
 // window attributes
 const int GAP = 1;
-const int SCREEN_WIDTH = (barWidth*TEST_ARRAY.size()) + ((TEST_ARRAY.size()-1)*GAP), SCREEN_HEIGHT = 600, PASSES_PER_SECOND = 110;
+const int SCREEN_WIDTH = (barWidth*TEST_ARRAY.size()) + ((TEST_ARRAY.size()-1)*GAP), SCREEN_HEIGHT = 1000, PASSES_PER_SECOND = 244;
 
 // temp color for counter display
 CLITERAL(Color) counterColor = RED;
@@ -31,6 +31,9 @@ int main(void) {
     // pass counter
     long counter = 0;
 
+    // pause
+    bool paused = false;
+
     // initialise window
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "SortVisualisation Visualization");
     InitAudioDevice();
@@ -41,14 +44,25 @@ int main(void) {
 
     // -- main loop -- //
     while (!WindowShouldClose()) {
+        vector<int> pass = sortBubble(TEST_ARRAY, counter);
+
+        if(IsKeyDown(KEY_SPACE)) {
+            paused = true;
+        } else {
+            paused = false;
+        }
+
+        if(!paused) {
+            // create pass array every frame
+            pass = sortBubble(TEST_ARRAY, counter);
+        } else {
+            // nothing
+        }
         // -- variable loop -- //
         offset = 0;
 
         // TODO: be able to choose a sorting algorithm
 
-
-        // create pass array every frame
-        vector<int> pass = sortBogo(TEST_ARRAY, counter);
 
         // play oof for every pass
         PlaySound(beep);
@@ -77,7 +91,7 @@ int main(void) {
         DrawText(TextFormat("%i", counter), 1, 1, 35, counterColor);
 
         // display expected no. of passes to completion using expected big-o complexity
-        DrawText(TextFormat("%i", complexity), 1, 36, 35, GREEN);
+        // DrawText(TextFormat("%i", complexity), 1, 36, 35, GREEN);
 
         // change color of counter display if it is an unlikely amount of passes
         if(counter > complexity) {
@@ -106,5 +120,6 @@ int main(void) {
     CloseAudioDevice();
 
     // -- exit program -- //
+    SetTargetFPS(0);
     return 0;
 }

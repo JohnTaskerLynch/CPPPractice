@@ -110,3 +110,18 @@ std::vector<int> sortBogoBogo(std::vector<int> &input, long &counter) {
 
     return temp;
 }
+
+std::vector<int> sortBubble(std::vector<int> &input, long &counter) {
+    for(int i = input.size(); i > 0; --i) {
+        for(int j = 0; j < i; ++j) {
+            if(input.at(j) > input.at(j+1) ) {
+                int tmp = input.at(j);
+                input.at(j) = input.at(j+1);
+                input.at(j+1) = tmp;
+
+                counter++;
+                return input;
+            }
+        }
+    }
+}

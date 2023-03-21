@@ -1,3 +1,4 @@
+#include "Sort.h"
 #include "Math.h"
 #include "cstdlib"
 #include "vector"
@@ -34,11 +35,14 @@ int randDigit() {
 
 std::vector<int> generateArray(int length) {
     std::vector<int> temp;
+    long counter = 0;
 
-    for(int i = 0; i < length; i++) {
-        int num = rand() % length;
-        temp.push_back(num);
+    for(int i = 1; i < length; i++) {
+        temp.push_back(i);
     }
 
+    temp = sortBogo(temp, counter);
+
     return temp;
+
 }

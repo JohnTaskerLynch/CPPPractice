@@ -9,5 +9,6 @@ bool checkOrder(std::vector<int> input);
 std::vector<int> sortGiggle(std::vector<int> &input, long &counter);
 std::vector<int> sortBogo(std::vector<int> input, long &counter);
 std::vector<int> sortBogoBogo(std::vector<int> &input, long &counter);
+std::vector<int> sortBubble(std::vector<int> &input, long &counter);
 
 #endif //SORT
