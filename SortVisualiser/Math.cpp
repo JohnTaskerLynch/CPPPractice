@@ -31,3 +31,14 @@ int randDigit() {
 
     return temp.at(randomIndex);
 }
+
+std::vector<int> generateArray(int length) {
+    std::vector<int> temp;
+
+    for(int i = 0; i < length; i++) {
+        int num = rand() % length;
+        temp.push_back(num);
+    }
+
+    return temp;
+}

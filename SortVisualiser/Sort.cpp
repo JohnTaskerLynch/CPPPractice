@@ -15,7 +15,7 @@ bool checkOrder(std::vector<int> input) {
 
 std::vector<int> sortBogo(std::vector<int> input, long &counter) {
     std::vector<int> temp;
-    int tmp, n, randomIndex;
+    int tmp, randomIndex;
 
     for(int i : input) {
         temp.push_back(i);
@@ -24,7 +24,7 @@ std::vector<int> sortBogo(std::vector<int> input, long &counter) {
     for(int i = 0, n = input.size(); i < n; i++) {
         //srand(time(0));
         tmp = temp[i];
-        randomIndex = randDigit();
+        randomIndex = rand() % input.size();
         temp[i] = temp[randomIndex];
         temp[randomIndex] = tmp;
     }

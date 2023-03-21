@@ -184,14 +184,14 @@ depend:
 # Target rules for targets named SortVisualiser
 
 # Build rule for target.
-Bogosort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Bogosort
-.PHONY : Bogosort
+SortVisualiser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SortVisualiser
+.PHONY : SortVisualiser
 
 # fast build rule for target.
-Bogosort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/build
-.PHONY : Bogosort/fast
+SortVisualiser/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/build
+.PHONY : SortVisualiser/fast
 
 #=============================================================================
 # Target rules for targets named raylib
@@ -232,101 +232,101 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\build.make _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
-Graphics.obj: Graphics.cpp.obj
-.PHONY : Graphics.obj
+SortVisualiser/Graphics.obj: SortVisualiser/Graphics.cpp.obj
+.PHONY : SortVisualiser/Graphics.obj
 
 # target to build an object file
-Graphics.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Graphics.cpp.obj
-.PHONY : Graphics.cpp.obj
+SortVisualiser/Graphics.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/Graphics.cpp.obj
+.PHONY : SortVisualiser/Graphics.cpp.obj
 
-Graphics.i: Graphics.cpp.i
-.PHONY : Graphics.i
+SortVisualiser/Graphics.i: SortVisualiser/Graphics.cpp.i
+.PHONY : SortVisualiser/Graphics.i
 
 # target to preprocess a source file
-Graphics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Graphics.cpp.i
-.PHONY : Graphics.cpp.i
+SortVisualiser/Graphics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/Graphics.cpp.i
+.PHONY : SortVisualiser/Graphics.cpp.i
 
-Graphics.s: Graphics.cpp.s
-.PHONY : Graphics.s
+SortVisualiser/Graphics.s: SortVisualiser/Graphics.cpp.s
+.PHONY : SortVisualiser/Graphics.s
 
 # target to generate assembly for a file
-Graphics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Graphics.cpp.s
-.PHONY : Graphics.cpp.s
+SortVisualiser/Graphics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/Graphics.cpp.s
+.PHONY : SortVisualiser/Graphics.cpp.s
 
-Math.obj: Math.cpp.obj
-.PHONY : Math.obj
+SortVisualiser/Math.obj: SortVisualiser/Math.cpp.obj
+.PHONY : SortVisualiser/Math.obj
 
 # target to build an object file
-Math.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Math.cpp.obj
-.PHONY : Math.cpp.obj
+SortVisualiser/Math.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/Math.cpp.obj
+.PHONY : SortVisualiser/Math.cpp.obj
 
-Math.i: Math.cpp.i
-.PHONY : Math.i
+SortVisualiser/Math.i: SortVisualiser/Math.cpp.i
+.PHONY : SortVisualiser/Math.i
 
 # target to preprocess a source file
-Math.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Math.cpp.i
-.PHONY : Math.cpp.i
+SortVisualiser/Math.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/Math.cpp.i
+.PHONY : SortVisualiser/Math.cpp.i
 
-Math.s: Math.cpp.s
-.PHONY : Math.s
+SortVisualiser/Math.s: SortVisualiser/Math.cpp.s
+.PHONY : SortVisualiser/Math.s
 
 # target to generate assembly for a file
-Math.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Math.cpp.s
-.PHONY : Math.cpp.s
+SortVisualiser/Math.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/Math.cpp.s
+.PHONY : SortVisualiser/Math.cpp.s
 
-Sort.obj: Sort.cpp.obj
-.PHONY : Sort.obj
+SortVisualiser/Sort.obj: SortVisualiser/Sort.cpp.obj
+.PHONY : SortVisualiser/Sort.obj
 
 # target to build an object file
-Sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Sort.cpp.obj
-.PHONY : Sort.cpp.obj
+SortVisualiser/Sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/Sort.cpp.obj
+.PHONY : SortVisualiser/Sort.cpp.obj
 
-Sort.i: Sort.cpp.i
-.PHONY : Sort.i
+SortVisualiser/Sort.i: SortVisualiser/Sort.cpp.i
+.PHONY : SortVisualiser/Sort.i
 
 # target to preprocess a source file
-Sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Sort.cpp.i
-.PHONY : Sort.cpp.i
+SortVisualiser/Sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/Sort.cpp.i
+.PHONY : SortVisualiser/Sort.cpp.i
 
-Sort.s: Sort.cpp.s
-.PHONY : Sort.s
+SortVisualiser/Sort.s: SortVisualiser/Sort.cpp.s
+.PHONY : SortVisualiser/Sort.s
 
 # target to generate assembly for a file
-Sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/Sort.cpp.s
-.PHONY : Sort.cpp.s
+SortVisualiser/Sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/Sort.cpp.s
+.PHONY : SortVisualiser/Sort.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+SortVisualiser/main.obj: SortVisualiser/main.cpp.obj
+.PHONY : SortVisualiser/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+SortVisualiser/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/main.cpp.obj
+.PHONY : SortVisualiser/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+SortVisualiser/main.i: SortVisualiser/main.cpp.i
+.PHONY : SortVisualiser/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/main.cpp.i
-.PHONY : main.cpp.i
+SortVisualiser/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/main.cpp.i
+.PHONY : SortVisualiser/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+SortVisualiser/main.s: SortVisualiser/main.cpp.s
+.PHONY : SortVisualiser/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bogosort.dir\build.make CMakeFiles/Bogosort.dir/main.cpp.s
-.PHONY : main.cpp.s
+SortVisualiser/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortVisualiser.dir\build.make CMakeFiles/SortVisualiser.dir/SortVisualiser/main.cpp.s
+.PHONY : SortVisualiser/main.cpp.s
 
 # Help Target
 help:
@@ -343,21 +343,21 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... update_mappings
-	@echo ... Bogosort
+	@echo ... SortVisualiser
 	@echo ... glfw
 	@echo ... raylib
-	@echo ... Graphics.obj
-	@echo ... Graphics.i
-	@echo ... Graphics.s
-	@echo ... Math.obj
-	@echo ... Math.i
-	@echo ... Math.s
-	@echo ... Sort.obj
-	@echo ... Sort.i
-	@echo ... Sort.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... SortVisualiser/Graphics.obj
+	@echo ... SortVisualiser/Graphics.i
+	@echo ... SortVisualiser/Graphics.s
+	@echo ... SortVisualiser/Math.obj
+	@echo ... SortVisualiser/Math.i
+	@echo ... SortVisualiser/Math.s
+	@echo ... SortVisualiser/Sort.obj
+	@echo ... SortVisualiser/Sort.i
+	@echo ... SortVisualiser/Sort.s
+	@echo ... SortVisualiser/main.obj
+	@echo ... SortVisualiser/main.i
+	@echo ... SortVisualiser/main.s
 .PHONY : help
 
 

@@ -12,5 +12,6 @@
 int factorial(int input);
 int randDigit();
 void printPi();
+std::vector<int> generateArray(int length);
 
 #endif //Math

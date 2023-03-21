@@ -8,11 +8,12 @@
 using namespace std;
 
 // bar dimensions
-int barWidth = 50;
+int barWidth = 12;
 float offset = 0;
+int barMagnitude = 20;
 
 // input array and its complexity calculation
-const vector<int> TEST_ARRAY = {1, 4, 3, 2, 5};
+const vector<int> TEST_ARRAY = generateArray(barMagnitude);
 int complexity = factorial(TEST_ARRAY.size());
 
 // window attributes
